@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>She Shuttle | SCSC Women Safety Wing</title>
+  <meta name="description" content="She Shuttle by SCSC: Free, safe, and GPS-monitored smart mobility for female professionals, students, and commuters in the Cyberabad IT corridor.">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="She Shuttle | SCSC Women Safety Wing">
+  <meta property="og:description" content="Safe, free transit for women across Cyberabad with real-time GPS tracking and female security marshals.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SCSC Women Safety Wing">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Google Fonts & Fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Shared Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Emergency Dial 112 Button -->
+  <a href="tel:112" class="emergency-sticky" aria-label="Emergency Assistance: Dial 112 directly">
+    <span class="emergency-sticky__pulse" aria-hidden="true"></span>
+    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+    <span>Emergency: Dial 112</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Shared Header -->
+  <header class="site-header" role="banner">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="SCSC Women Safety Wing Home">
+        <svg class="brand__logo" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#221a46"/>
+          <path d="M24 8L12 13V22C12 30.5 17.1 38.4 24 40C30.9 38.4 36 30.5 36 22V13L24 8Z" fill="#0c6b68" stroke="#ffffff" stroke-width="2"/>
+          <path d="M24 16C21.8 16 20 17.8 20 20C20 21.7 21.1 23.1 22.6 23.7C19.8 24.8 18 27.6 18 31H30C30 27.6 28.2 24.8 25.4 23.7C26.9 23.1 28 21.7 28 20C28 17.8 26.2 16 24 16Z" fill="#ffffff"/>
+        </svg>
+        <div class="brand__text">
+          <span class="brand__title">SCSC Women Safety</span>
+          <span class="brand__subtitle">Cyberabad Security Council</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <!-- Primary Navigation -->
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="she-shuttle.html" class="nav__link nav__link--active" aria-current="page">She Shuttle</a>
+          </li>
+          <li class="nav__item">
+            <a href="safe-stay.html" class="nav__link">Safe Stay</a>
+          </li>
+          <li class="nav__item">
+            <a href="margadarshak.html" class="nav__link">Margadarshak</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:112" class="btn btn--emergency btn--sm" aria-label="Call Emergency 112">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>Dial 112</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumbs -->
+  <div class="breadcrumbs-bar">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol class="breadcrumbs__list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__item breadcrumbs__item--current" aria-current="page">She Shuttle</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="site-main">
+    <!-- Initiative Hero -->
+    <section class="hero hero--initiative" aria-labelledby="she-shuttle-title">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <rect x="2" y="5" width="20" height="13" rx="2"></rect>
+              <line x1="2" y1="13" x2="22" y2="13"></line>
+              <circle cx="7" cy="18" r="2"></circle>
+              <circle cx="17" cy="18" r="2"></circle>
+            </svg>
+            <span>Safe Transit Pillar</span>
+          </div>
+          <h1 id="she-shuttle-title" class="hero__title">She Shuttle: Safe, Free Transit for Women in Cyberabad</h1>
+          <p class="hero__subtitle">
+            <!-- TODO: Verify and update full official She Shuttle description -->
+            A flagship mobility initiative by the Society for Cyberabad Security Council (SCSC) and Cyberabad Police, providing dedicated, technology-enabled, and secure transportation for female professionals and students.
+          </p>
+          <div class="hero__actions">
+            <a href="#how-it-works" class="btn btn--accent btn--lg">
+              <span>How To Ride</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+            <a href="#routes-schedule" class="btn btn--outline-white btn--lg">
+              <span>Routes &amp; Timings</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About She Shuttle -->
+    <section class="section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Transit Security</span>
+          <h2 id="about-title" class="section__title">About She Shuttle</h2>
+          <p class="section__description">
+            Bridging last-mile transit vulnerabilities for working women commuting across the IT hubs of Hyderabad.
+          </p>
+        </div>
+
+        <div style="max-width: 860px; margin-inline: auto;">
+          <!-- TODO: Update She Shuttle official overview text & launch year details -->
+          <p>
+            Launched by SCSC in active collaboration with the Cyberabad Metropolitan Police Commissionerate, <strong>She Shuttle</strong> was designed specifically to eliminate safety hurdles faced by female employees during non-standard shift hours and daily commute corridors.
+          </p>
+          <p>
+            Operating across key technology clusters—including HITEC City, Madhapur, Gachibowli, and the Financial District—each vehicle is monitored in real time and staffed with dedicated safety personnel. The service operates on a <strong>free-of-cost</strong> model for all women commuters.
+          </p>
+          <div style="background-color: var(--color-teal-light); border-left: 4px solid var(--color-teal); padding: 1.25rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-top: 1.5rem;">
+            <strong>Core Mission:</strong> To ensure that no woman in Cyberabad has to compromise her career or personal mobility due to lack of safe, reliable after-hours transportation.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="section section--alt" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Safety Standards</span>
+          <h2 id="features-title" class="section__title">Key Safety Features</h2>
+          <p class="section__description">
+            Engineered with layered physical and digital security mechanisms.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="22" y1="12" x2="18" y2="12"></line>
+                <line x1="6" y1="12" x2="2" y2="12"></line>
+                <line x1="12" y1="6" x2="12" y2="2"></line>
+                <line x1="12" y1="22" x2="12" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Real-Time GPS Tracking</h3>
+            <p class="feature-card__desc">
+              Every shuttle is equipped with continuous GPS telemetry directly monitored by the Cyberabad Police Control Room and SCSC operational dispatch.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Female Security Marshals</h3>
+            <p class="feature-card__desc">
+              Trained women security guards accompany passengers aboard the shuttles to ensure peace of mind and prompt handling of any onboard situation.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                <line x1="7" y1="2" x2="7" y2="22"></line>
+                <line x1="17" y1="2" x2="17" y2="22"></line>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <line x1="2" y1="7" x2="7" y2="7"></line>
+                <line x1="2" y1="17" x2="7" y2="17"></line>
+                <line x1="17" y1="17" x2="22" y2="17"></line>
+                <line x1="17" y1="7" x2="22" y2="7"></line>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Surveillance &amp; Panic Buttons</h3>
+            <p class="feature-card__desc">
+              Equipped with interior and exterior CCTV cameras, as well as easily reachable emergency SOS panic alarms wired to rapid response.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M16 12l-4-4-4 4"></path>
+                <path d="M12 16V8"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Free of Cost for Women</h3>
+            <p class="feature-card__desc">
+              <!-- TODO: Confirm fare policy details -->
+              Sponsored through member corporate contributions and SCSC safety funds—zero fare or ticket charges for female commuters.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Routes & Schedule Placeholder -->
+    <section id="routes-schedule" class="section" aria-labelledby="schedule-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag section__tag--accent">Operational Plan</span>
+          <h2 id="schedule-title" class="section__title">Routes &amp; Schedules</h2>
+          <p class="section__description">
+            Serving primary metro interchanges, IT campuses, and hostel zones across Cyberabad.
+          </p>
+        </div>
+
+        <div style="max-width: 860px; margin-inline: auto; background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 2rem;">
+          <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">Primary Transit Corridors Covered</h3>
+          
+          <!-- TODO: Replace generic corridors with official She Shuttle route map & timetable -->
+          <ul style="margin-bottom: 1.5rem;">
+            <li><strong>Route 1:</strong> Raidurg Metro Station &harr; Mindspace &harr; Bio-Diversity Park &harr; Gachibowli</li>
+            <li><strong>Route 2:</strong> HITEC City MMTS / Metro &harr; Cyber Towers &harr; Knowledge City</li>
+            <li><strong>Route 3:</strong> Gachibowli Junction &harr; Financial District &harr; Nanakramguda</li>
+            <li>
+              <span class="placeholder-badge">Detailed Routes &amp; Stop Timings: TBD by SCSC Transport Desk</span>
+            </li>
+          </ul>
+
+          <div style="background-color: var(--color-surface-alt); border-radius: var(--radius-md); padding: 1.25rem;">
+            <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--color-primary);">Operating Hours &amp; Frequency</h4>
+            <p style="font-size: 0.9375rem; color: var(--color-text-muted);">
+              Shuttles run during peak morning and evening transit windows, with extended frequency during night shift transitions.
+            </p>
+            <!-- TODO: Insert exact shift start and end times -->
+            <p style="font-size: 0.875rem;">
+              <span class="placeholder-badge">Exact Morning &amp; Night Shift Timings: TBD</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works (Numbered Steps) -->
+    <section id="how-it-works" class="section section--alt" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">User Journey</span>
+          <h2 id="how-title" class="section__title">How It Works</h2>
+          <p class="section__description">
+            A simple, barrier-free boarding process for daily commuters.
+          </p>
+        </div>
+
+        <ol class="steps-list">
+          <li class="step-card">
+            <span class="step-card__number">1</span>
+            <h3 class="step-card__title">Locate Shuttle Stop</h3>
+            <p class="step-card__desc">
+              Head to designated She Shuttle boarding points at metro stations, MMTS terminals, or recognized IT hubs.
+            </p>
+          </li>
+
+          <li class="step-card">
+            <span class="step-card__number">2</span>
+            <h3 class="step-card__title">Track Real-Time Arrival</h3>
+            <!-- TODO: Add official App link or SCSC live tracking portal url -->
+            <p class="step-card__desc">
+              Track approaching shuttles via the mobile tracker or look for the distinctive SCSC She Shuttle signage.
+              <span class="placeholder-badge">App / Tracking Portal Link: TBD</span>
+            </p>
+          </li>
+
+          <li class="step-card">
+            <span class="step-card__number">3</span>
+            <h3 class="step-card__title">Board Safely</h3>
+            <p class="step-card__desc">
+              Show your employee/student ID card to the female marshal onboard. Board freely with no tickets or charges.
+            </p>
+          </li>
+
+          <li class="step-card">
+            <span class="step-card__number">4</span>
+            <h3 class="step-card__title">Reach Your Destination</h3>
+            <p class="step-card__desc">
+              Alight comfortably at your office campus, hostel gateway, or transit hub under continuous CCTV and GPS escort.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="section" aria-labelledby="audience-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Beneficiaries</span>
+          <h2 id="audience-title" class="section__title">Who It's For</h2>
+          <p class="section__description">
+            Serving all women traveling within the Cyberabad police limits.
+          </p>
+        </div>
+
+        <div class="audience-grid">
+          <div class="audience-card">
+            <h3 class="audience-card__title">Late-Shift Tech Professionals</h3>
+            <p class="audience-card__desc">
+              Women working rotational shifts, night support, or critical operations requiring reliable transport after regular transit hours.
+            </p>
+          </div>
+
+          <div class="audience-card">
+            <h3 class="audience-card__title">Daily Metro &amp; Bus Commuters</h3>
+            <p class="audience-card__desc">
+              Last-mile travelers who need a secure bridge between metro stations (Raidurg, Hitec City) and distant business parks.
+            </p>
+          </div>
+
+          <div class="audience-card">
+            <h3 class="audience-card__title">Students &amp; Job Seekers</h3>
+            <p class="audience-card__desc">
+              Young women, college students, and newcomers to Hyderabad seeking safe transit between hostels and institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section section--alt" aria-labelledby="faq-sheshuttle-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Got Questions?</span>
+          <h2 id="faq-sheshuttle-title" class="section__title">She Shuttle FAQs</h2>
+          <p class="section__description">
+            Important details on boarding rules, fares, and safety protocols.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-ss-1">
+              <span>Is She Shuttle completely free of charge?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-ss-1" class="accordion__panel" hidden>
+              <!-- TODO: Recheck cost details for She Shuttle -->
+              <p>
+                Yes. She Shuttle is a non-profit public-private safety service jointly sponsored by SCSC member companies and the Cyberabad Police. No fare is collected from women passengers.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-ss-2">
+              <span>Do I need to show an ID card to board?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-ss-2" class="accordion__panel" hidden>
+              <!-- TODO: Confirm ID requirements -->
+              <p>
+                Yes, passengers are requested to carry their corporate employee identity card, student ID, or a valid government photo ID for security verification by the onboard marshal.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-ss-3">
+              <span>Are male passengers allowed under any circumstance?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-ss-3" class="accordion__panel" hidden>
+              <p>
+                No. She Shuttle is strictly reserved for female commuters to maintain a secure and safe transit space. Only authorized official staff or police escorts may be present.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-ss-4">
+              <span>What should I do if a shuttle is delayed or misses a stop?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-ss-4" class="accordion__panel" hidden>
+              <!-- TODO: Add transport desk helpline -->
+              <p>
+                You can contact the SCSC Transport Operations Desk or reach out via the helpline numbers listed below. For any immediate emergency, dial 112.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Report / Help Block -->
+    <section class="section" aria-labelledby="contact-sheshuttle-title">
+      <div class="container">
+        <div class="contact-box">
+          <div>
+            <span class="section__tag section__tag--accent">Inquiries &amp; Feedback</span>
+            <h2 id="contact-sheshuttle-title" class="contact-box__title">She Shuttle Helpdesk &amp; Support</h2>
+            <p class="contact-box__text">
+              Have questions about route schedules, want to report a transit issue, or request a new stop in your company cluster? Get in touch with the transport coordination desk.
+            </p>
+
+            <ul class="contact-channels">
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                <div>
+                  <strong>Emergency Police Line:</strong> Dial 112 (24x7 Immediate Response)
+                </div>
+              </li>
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="2" y="5" width="20" height="13" rx="2"></rect>
+                  <line x1="2" y1="13" x2="22" y2="13"></line>
+                </svg>
+                <div>
+                  <!-- TODO: Add official She Shuttle hotline phone number -->
+                  <strong>She Shuttle Coordinator Hotline:</strong>
+                  <span class="placeholder-badge">She Shuttle Hotline Number: TBD</span>
+                </div>
+              </li>
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <div>
+                  <!-- TODO: Add official She Shuttle contact email -->
+                  <strong>Feedback &amp; Schedule Enquiries:</strong>
+                  <span class="placeholder-badge">sheshuttle@scsc.in: TBD</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="emergency-callout">
+            <h3 class="emergency-callout__title">Safety Concern on the Road?</h3>
+            <p>If you feel unsafe at a transit stop or while commuting, trigger immediate police assistance.</p>
+            <a href="tel:112" class="emergency-callout__number">112</a>
+            <span class="emergency-callout__desc">Monitored 24/7 by Cyberabad Police Control Room</span>
+            <div class="mt-1">
+              <a href="tel:112" class="btn btn--emergency">
+                <span>Call 112 Now</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Related Services Section -->
+        <div class="related-services">
+          <div class="section__header" style="margin-bottom: 1.5rem;">
+            <span class="section__tag">The Safety Continuum</span>
+            <h3 class="section__title" style="font-size: 1.75rem;">Connected SCSC Services</h3>
+            <p class="section__description">
+              How She Shuttle integrates with your living accommodation and workplace security.
+            </p>
+          </div>
+
+          <div class="related-grid">
+            <!-- Link to Safe Stay -->
+            <article class="related-card">
+              <div class="related-card__header">
+                <div class="related-card__icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </div>
+                <h4 class="related-card__title">Safe Stay (Accommodation)</h4>
+              </div>
+              <span class="related-card__connection">From safe travel to safe living</span>
+              <p class="related-card__desc">
+                After taking a secure She Shuttle ride, return home to a verified, security-audited hostel or PG certified by SCSC and Cyberabad Police.
+              </p>
+              <div>
+                <a href="safe-stay.html" class="btn btn--outline btn--sm">
+                  <span>Explore Safe Stay Hostels</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Link to Margadarshak -->
+            <article class="related-card">
+              <div class="related-card__header">
+                <div class="related-card__icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                  </svg>
+                </div>
+                <h4 class="related-card__title">Margadarshak (Guidance &amp; Mentorship)</h4>
+              </div>
+              <span class="related-card__connection">From physical transit to workplace guidance</span>
+              <p class="related-card__desc">
+                If you encounter harassment, stalking, or workplace safety hurdles, connect with certified peer mentors trained to provide legal and emotional guidance.
+              </p>
+              <div>
+                <a href="margadarshak.html" class="btn btn--outline btn--sm">
+                  <span>Connect with Margadarshaks</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h3 class="footer__title">SCSC Women Safety Wing</h3>
+          <p class="footer__text">
+            A collaborative alliance of Cyberabad Police and Industry leadership fostering security, transit mobility, and welfare for women across the tech corridor.
+          </p>
+          <p class="footer__text">
+            <strong>Headquarters:</strong> Cyberabad Police Commissionerate, Gachibowli, Hyderabad, Telangana 500032.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Initiatives</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home Overview</a></li>
+            <li><a href="she-shuttle.html" class="footer__link">She Shuttle Transit</a></li>
+            <li><a href="safe-stay.html" class="footer__link">Safe Stay Hostels</a></li>
+            <li><a href="margadarshak.html" class="footer__link">Margadarshak Mentorship</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">She Shuttle Links</h3>
+          <ul class="footer__list">
+            <li><a href="#about-title" class="footer__link">About She Shuttle</a></li>
+            <li><a href="#features-title" class="footer__link">Key Features</a></li>
+            <li><a href="#how-it-works" class="footer__link">How to Board</a></li>
+            <li><a href="#routes-schedule" class="footer__link">Routes &amp; Timings</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-emergency-box">
+            <h4 class="footer-emergency-box__title">Emergency Support</h4>
+            <p class="footer-emergency-box__desc">
+              National Emergency Service available 24/7. Immediate dispatch for police, fire, or ambulance.
+            </p>
+            <a href="tel:112" class="btn btn--emergency btn--sm btn--full">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>Call 112 Immediately</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Society for Cyberabad Security Council (SCSC). All rights reserved.
+        </div>
+        <div>
+          In Collaboration with Cyberabad Metropolitan Police. Built with plain HTML, CSS, and vanilla JS.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shared Script -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCSC Women Safety Wing | Cyberabad Security Council</title>
+  <meta name="description" content="Society for Cyberabad Security Council (SCSC) Women Safety Wing: Empowering women in Cyberabad with She Shuttle (safe transit), Safe Stay (verified hostels), and Margadarshak (safety mentorship).">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="SCSC Women Safety Wing | Society for Cyberabad Security Council">
+  <meta property="og:description" content="Connecting safe transit, verified accommodation, and safety mentorship for women in Cyberabad.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SCSC Women Safety Wing">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Google Fonts & Fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Shared Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Emergency Dial 112 Button -->
+  <a href="tel:112" class="emergency-sticky" aria-label="Emergency Assistance: Dial 112 directly">
+    <span class="emergency-sticky__pulse" aria-hidden="true"></span>
+    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+    <span>Emergency: Dial 112</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Shared Header -->
+  <header class="site-header" role="banner">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="SCSC Women Safety Wing Home">
+        <svg class="brand__logo" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#221a46"/>
+          <path d="M24 8L12 13V22C12 30.5 17.1 38.4 24 40C30.9 38.4 36 30.5 36 22V13L24 8Z" fill="#0c6b68" stroke="#ffffff" stroke-width="2"/>
+          <path d="M24 16C21.8 16 20 17.8 20 20C20 21.7 21.1 23.1 22.6 23.7C19.8 24.8 18 27.6 18 31H30C30 27.6 28.2 24.8 25.4 23.7C26.9 23.1 28 21.7 28 20C28 17.8 26.2 16 24 16Z" fill="#ffffff"/>
+        </svg>
+        <div class="brand__text">
+          <span class="brand__title">SCSC Women Safety</span>
+          <span class="brand__subtitle">Cyberabad Security Council</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <!-- Primary Navigation -->
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link nav__link--active" aria-current="page">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="she-shuttle.html" class="nav__link">She Shuttle</a>
+          </li>
+          <li class="nav__item">
+            <a href="safe-stay.html" class="nav__link">Safe Stay</a>
+          </li>
+          <li class="nav__item">
+            <a href="margadarshak.html" class="nav__link">Margadarshak</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:112" class="btn btn--emergency btn--sm" aria-label="Call Emergency 112">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>Dial 112</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="site-main">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+            </svg>
+            <span>Joint Initiative with Cyberabad Police</span>
+          </div>
+          <h1 id="hero-title" class="hero__title">A Connected Continuum of Safety for Women in Cyberabad</h1>
+          <p class="hero__subtitle">
+            The Society for Cyberabad Security Council (SCSC) Women Safety Wing builds an integrated support ecosystem: safeguarding your transit, securing your accommodation, and empowering your workplace through dedicated community mentors.
+          </p>
+          <div class="hero__actions">
+            <a href="#safety-journey" class="btn btn--accent btn--lg">
+              <span>Explore Safety Journey</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#helpline-section" class="btn btn--outline-white btn--lg">
+              <span>Emergency Helplines</span>
+            </a>
+          </div>
+
+          <!-- Overview Stats Bar -->
+          <div class="hero__stats-bar">
+            <div class="stat-item">
+              <div class="stat-item__number">Travel</div>
+              <div class="stat-item__label">She Shuttle Network</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item__number">Stay</div>
+              <div class="stat-item__label">Safe Stay Audited Hostels</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item__number">Support</div>
+              <div class="stat-item__label">Margadarshak Mentors</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Connected Safety Journey Section -->
+    <section id="safety-journey" class="section" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">The 3 Pillars</span>
+          <h2 id="journey-title" class="section__title">Your Connected Safety Journey</h2>
+          <p class="section__description">
+            Safety does not exist in isolation. SCSC links your daily commute, living spaces, and professional workspace into one seamless circle of protection.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+          <!-- Step 1: She Shuttle -->
+          <article class="journey-card journey-card--teal">
+            <span class="journey-card__step" aria-label="Step 1">1</span>
+            <div class="journey-card__icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="5" width="20" height="13" rx="2"></rect>
+                <line x1="2" y1="13" x2="22" y2="13"></line>
+                <circle cx="7" cy="18" r="2"></circle>
+                <circle cx="17" cy="18" r="2"></circle>
+                <path d="M7 9h.01M17 9h.01"></path>
+              </svg>
+            </div>
+            <span class="journey-card__tag">Safe Commute</span>
+            <h3 class="journey-card__title">She Shuttle</h3>
+            <p class="journey-card__desc">
+              Dedicated, free, and GPS-monitored transit connecting metro hubs and IT corridors with female security marshals and panic buttons.
+            </p>
+            <div class="journey-card__footer">
+              <a href="she-shuttle.html" class="btn btn--outline btn--full">
+                <span>Explore She Shuttle</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Step 2: Safe Stay -->
+          <article class="journey-card journey-card--purple">
+            <span class="journey-card__step" aria-label="Step 2">2</span>
+            <div class="journey-card__icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                <path d="M12 5l4 4"></path>
+              </svg>
+            </div>
+            <span class="journey-card__tag">Safe Living</span>
+            <h3 class="journey-card__title">Safe Stay</h3>
+            <p class="journey-card__desc">
+              Security-audited and police-verified working women's hostels and PGs across Cyberabad with verified wardens, CCTV, and biometric access.
+            </p>
+            <div class="journey-card__footer">
+              <a href="safe-stay.html" class="btn btn--outline btn--full">
+                <span>Explore Safe Stay</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Step 3: Margadarshak -->
+          <article class="journey-card journey-card--coral">
+            <span class="journey-card__step" aria-label="Step 3">3</span>
+            <div class="journey-card__icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <span class="journey-card__tag">Safe Support</span>
+            <h3 class="journey-card__title">Margadarshak</h3>
+            <p class="journey-card__desc">
+              Trained workplace and community safety mentors offering confidential counsel, POSH guidance, domestic crisis support, and legal referrals.
+            </p>
+            <div class="journey-card__footer">
+              <a href="margadarshak.html" class="btn btn--outline btn--full">
+                <span>Explore Margadarshak</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About SCSC Women Safety Wing -->
+    <section class="section section--alt" aria-labelledby="about-scsc-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Who We Are</span>
+          <h2 id="about-scsc-title" class="section__title">About SCSC Women Safety Wing</h2>
+          <p class="section__description">
+            A collaborative bridge uniting Cyberabad Police Commissionerate, IT and corporate leaders, and citizens to create South Asia's safest work and living ecosystem.
+          </p>
+        </div>
+
+        <div class="feature-grid feature-grid--3">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Police & Industry Alliance</h3>
+            <p class="feature-card__desc">
+              Direct partnership between the Cyberabad Police and leading tech enterprises to address real safety challenges swiftly and systematically.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Proactive Interventions</h3>
+            <p class="feature-card__desc">
+              From continuous route patrols to hostel safety certifications and corporate awareness drives, we preempt vulnerabilities before they arise.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">24x7 Rapid Assistance</h3>
+            <p class="feature-card__desc">
+              Seamless linkage with Cyberabad Police Control Room, SHE Teams, and national emergency lines for prompt physical and legal response.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency & Helplines Section -->
+    <section id="helpline-section" class="section" aria-labelledby="helpline-title">
+      <div class="container">
+        <div class="contact-box">
+          <div>
+            <span class="section__tag section__tag--accent">Direct Contact</span>
+            <h2 id="helpline-title" class="contact-box__title">Helpline & Safety Directory</h2>
+            <p class="contact-box__text">
+              If you are in immediate distress or facing a threatening situation, dial emergency services immediately. For non-emergency grievances and guidance, reach out to our team.
+            </p>
+
+            <ul class="contact-channels">
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                <div>
+                  <strong>Emergency Police Dispatch:</strong> Dial 112 (National Emergency Number, 24x7)
+                </div>
+              </li>
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                </svg>
+                <div>
+                  <!-- TODO: Add official Cyberabad SHE Teams WhatsApp / contact number -->
+                  <strong>SHE Teams Cyberabad:</strong>
+                  <span class="placeholder-badge">SHE Teams Contact Number [TBD]</span>
+                </div>
+              </li>
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <div>
+                  <!-- TODO: Add official SCSC Women Safety Wing email address -->
+                  <strong>SCSC Women Safety Wing Secretariat:</strong>
+                  <span class="placeholder-badge">womensafety@scsc.in [TBD: Verify Official Email]</span>
+                </div>
+              </li>
+              <li class="contact-channel">
+                <svg class="contact-channel__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <div>
+                  <!-- TODO: Add official SCSC Control Room / Landline numbers -->
+                  <strong>SCSC Helpdesk Hotline:</strong>
+                  <span class="placeholder-badge">SCSC Helpline Landline [TBD]</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="emergency-callout">
+            <h3 class="emergency-callout__title">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              In Immediate Danger?
+            </h3>
+            <p>Immediate police dispatch 24 hours a day, 7 days a week.</p>
+            <a href="tel:112" class="emergency-callout__number" aria-label="Call 112 directly">112</a>
+            <span class="emergency-callout__desc">Toll-free across all mobile networks</span>
+            <div class="mt-1">
+              <a href="tel:112" class="btn btn--emergency">
+                <span>Call 112 Now</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Common FAQs Section -->
+    <section class="section section--alt" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Common Inquiries</span>
+          <h2 id="faq-title" class="section__title">Frequently Asked Questions</h2>
+          <p class="section__description">
+            Learn more about the ecosystem, eligibility, and how to access help.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-home-1">
+              <span>What is the Society for Cyberabad Security Council (SCSC)?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-home-1" class="accordion__panel" hidden>
+              <p>
+                The Society for Cyberabad Security Council (SCSC) is a unique collaborative initiative formed by the Cyberabad Police Commissionerate and IT/ITeS companies to ensure the safety, security, and infrastructure resilience of the Cyberabad IT corridor. The Women Safety Wing is a core pillar focusing exclusively on women's well-being.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-home-2">
+              <span>Are these services restricted to IT sector employees only?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-home-2" class="accordion__panel" hidden>
+              <p>
+                No. While She Shuttle routes focus heavily on major IT corridor corridors (Hitec City, Gachibowli, Financial District), services like Safe Stay guidelines and emergency response through Margadarshaks and SHE Teams are intended to benefit all working women, students, and citizens in the Cyberabad jurisdiction.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-home-3">
+              <span>How do the three initiatives work together?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-home-3" class="accordion__panel" hidden>
+              <p>
+                They create a connected safety loop: <strong>She Shuttle</strong> provides safe, monitored transport between your home/metro and workplace; <strong>Safe Stay</strong> ensures your PG or hostel is compliant with verified safety protocols; and <strong>Margadarshak</strong> provides a trained confidante in your office or community for guidance if you face harassment, POSH concerns, or safety worries.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="faq-home-4">
+              <span>Who can I contact if I want to report a safety concern?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div id="faq-home-4" class="accordion__panel" hidden>
+              <p>
+                For immediate life-threatening situations, always dial <strong>112</strong> immediately. For harassment incidents or stalker tracking, contact Cyberabad SHE Teams. For workplace and hostel concerns, you can connect with an SCSC Margadarshak or reach out to the SCSC Women Safety Wing helpdesk.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Col 1: About -->
+        <div>
+          <h3 class="footer__title">SCSC Women Safety Wing</h3>
+          <p class="footer__text">
+            A joint initiative of the Cyberabad Police Commissionerate and IT/Industry leaders, dedicated to creating an inclusive, safe, and empowering environment for women across Cyberabad.
+          </p>
+          <p class="footer__text">
+            <strong>Headquarters:</strong> Cyberabad Police Commissionerate, Gachibowli, Hyderabad, Telangana 500032.
+          </p>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h3 class="footer__title">Initiatives</h3>
+          <ul class="footer__list">
+            <li><a href="index.html" class="footer__link">Home Overview</a></li>
+            <li><a href="she-shuttle.html" class="footer__link">She Shuttle Transit</a></li>
+            <li><a href="safe-stay.html" class="footer__link">Safe Stay Hostels</a></li>
+            <li><a href="margadarshak.html" class="footer__link">Margadarshak Mentorship</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Key Services -->
+        <div>
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__list">
+            <li><a href="#safety-journey" class="footer__link">Safety Journey</a></li>
+            <li><a href="#helpline-section" class="footer__link">Emergency Numbers</a></li>
+            <li><a href="#faq-title" class="footer__link">General FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Emergency Alert Box -->
+        <div>
+          <div class="footer-emergency-box">
+            <h4 class="footer-emergency-box__title">Emergency Support</h4>
+            <p class="footer-emergency-box__desc">
+              National Emergency Service available 24/7. Immediate dispatch for police, fire, or ambulance.
+            </p>
+            <a href="tel:112" class="btn btn--emergency btn--sm btn--full">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>Call 112 Immediately</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Society for Cyberabad Security Council (SCSC). All rights reserved.
+        </div>
+        <div>
+          In Collaboration with Cyberabad Metropolitan Police. Built with plain HTML, CSS, and vanilla JS.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shared Script -->
+  <script src="script.js"></script>
+</body>
+</html>
